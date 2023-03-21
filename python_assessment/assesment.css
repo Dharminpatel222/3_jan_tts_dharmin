@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    height: 100vh;
+    width: fit-content;
+    background-color: aqua;
+    padding: 40px 80px;
+ 
+} */
+
+li{
+    list-style: none;
+}
+.homepage{
+    height: 100vh;
+    width: 100%;
+    background-image: url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.div-1{
+    height: auto;
+    width: 800px;
+    background-color: rgba(128, 128, 128, 0.607);
+    padding: 0px 60px;
+    padding-top: 40px;
+    text-align: center;
+}
+.border-1{
+    border: 1px solid #fff;
+   color: white;
+   position: relative;
+   margin-bottom: 30px;
+ 
+}
+.border-2{
+    border: 1px solid #fff;
+    position: relative;
+    padding: 30px;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    
+}
+
+.border h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+.list ul li{
+    color: white;
+    line-height: 30px;
+}
+.list{
+    margin-bottom: 80px;
+}
+.icon span{
+     height: 30px;
+     width: 30px;
+     background-color: aliceblue;
+     line-height: 30px;
+     border: 1px solid black;
+     margin-bottom: 20px;
+}
+.bottom-head{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.div-2 .content{
+    border: 1px solid transparent;
+    color: white;
+    padding: 30px;
+    line-height: 20px;
+    background-color: rgba(240, 248, 255, 0.288);
+}
+.div-2 .content h3{
+    padding-bottom: 20px;
+    color: cyan;
+}
+.div-2{
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 50px;
+}
+/* ===============about as============ */
+.about .container{
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-bottom: 150px;
+}
+.about .about-flex{
+    display: flex;
+    gap: 60px;
+}
+.about-us span{
+    color: #369;
+    padding-bottom: 40px;
+}
+.about-us h3{
+    color: #369;
+    padding-bottom: 40px;
+}
+.about-us p{
+    line-height: 20px;
+}
+.company-proflie span {
+    color: #369;
+    padding-bottom: 40px;
+}
+
+.company-proflie h3 {
+    color: #369;
+    padding-bottom: 40px;
+}
+
+.company-proflie p {
+    line-height: 20px;
+}
+/* ===============our work============ */
+.our .container {
+    margin-left: 330px;
+    margin-bottom: 100px;
+}
+.bord-1{
+    border: 1px solid black;
+    position: relative;
+}
+.bord-2{
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 50px;
+}
+.our-flex{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    padding-top: 20px;
+}
+.head h2{
+    color: #369;
+}
+
+/* ===============our clients============ */
+
+.our-client .container {
+
+    margin-left: 330px;
+    margin-bottom: 100px;
+}
+.our-client h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: #369;
+}
+.our-client p{
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+.our-client-flex{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+
+}
+.img1 img{
+    border: 1px solid black;
+    padding: 10px;
+    height: 100px;
+    width: 250px;
+    cursor: pointer;
+}
+/* ===============talk to us============ */
+
+.talk .container {
+    margin-left: 330px;
+    margin-bottom: 100px;
+}
+.talk-flex .content h3{
+    color: #369;
+    padding-bottom: 20px;
+}
+.talk-flex{
+    display: flex;
+    gap: 100px;
+}
+.detail .name input{
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+.detail .email input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+.detail .msg input {
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+
